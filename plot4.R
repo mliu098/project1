@@ -13,7 +13,7 @@
  points(data$dateTime, data$Sub_metering_2,type = "l",xlab = "",ylab = "Energy sub metering",main = "",col = "red")
  points(data$dateTime, data$Sub_metering_3,type = "l",xlab = "",ylab = "Energy sub metering",main = "",col = "blue")
  legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black","red","blue"))
- plot(data$dateTime,data$Global_active_power,type = "l",xlab="datetime",ylab="Global_reactive_power",main="")
+ plot(data$dateTime,data$Global_reactive_power,type = "l",xlab="datetime",ylab="Global_reactive_power",main="")
 
 
  dev.off() 
